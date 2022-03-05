@@ -32,7 +32,1137 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* STYLE FOR HOME PAGE */
+
+
+body {
+  margin: 0;
+  /* background-image: url("https://cutewallpaper.org/21/software-engineer-wallpaper/Best-57+-Developer-Wallpaper-on-HipWallpaper-Developer-.png"); */
+
+}
+
+
+
+
+
+h1 {
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Akaya Telivigala', cursive;
+  color: black;
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Festive&family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+span {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* margin: 0 20px 0 20px; */
+  /* margin: auto; */
+  padding: 10px 35px 10px 35px;
+  width: 25%;
+  border-right: 1px solid grey;
+  background-color: #282c34;
+  transition: 0.1s linear;
+  transition-property: all;
+  cursor: pointer;
+  color: white;
+
+
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+
+
+}
+span:hover {
+
+  background-color: rgb(44, 70, 70);
+  text-decoration: underline;
+  /* border-right: 3px solid grey;
+  border-left: 3px solid grey; */
+}
+.navigationbar {
+  color: white;
+  font-family: 'Akaya Telivigala', cursive;
+  text-decoration: none;
+  transition: 0.1s linear;
+  transition-property: all;
+}
+
+.navigationbar:hover {
+  text-decoration: underline;
+
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 5px;
+  margin-left: 850px;
+  margin-right: 100px;
+  display: flex;
+
+  /* justify-content: space-around; */
+  /* justify-content: center; */
+}
+
+
+
+img {
+  width: 50%;
+  height: 500px;
+  margin-top: 50px;
+  padding: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  border-radius: 10px;
+
+}
+
+.d-block w-100 {
+  border-radius: 100px;
+}
+
+
+
+
+.carousel-item img {
+  width: 300px;
+  height: 500px;
+}
+
+
+#logo img {
+  border-radius: 50%;
+  height: 100px;
+  top: 0;
+  box-shadow: 10px 8px 10px grey;
+  transition: -50%;
+}
+
+#logo {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+#logo img:hover {
+  height: 150px;
+  border: 3px solid grey;
+}
+
+#logo2 {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+
+}
+
+#logo2 img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#logo2 img:hover {
+  height: 150px;
+  border: 3px solid grey;
+}
+
+
+section .container .slide {
+  overflow: hidden;
+  height: 300px;
+  width: 600px;
+  margin: auto;
+  border: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 8px 10px grey;
+}
+
+section .container .slide figure {
+  width: 500%;
+  position: relative;
+  left: 0;
+  margin: 0;
+  animation: 20s slide infinite;
+}
+
+section .container .slide img {
+  width: 20%;
+  float: left;
+
+}
+
+@keyframes slide {
+  0% {
+    left: 0%;
+  }
+
+  25% {
+    left: -100%;
+  }
+
+  50% {
+    left: -200%;
+  }
+
+  75% {
+    left: -300%;
+  }
+
+  100% {
+    left: -400%;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+/* section .container .slide{
+  overflow:hidden;
+  display: flex;
+  height:300px;
+  width:600px;
+  margin:100px;
+  border:10px solid red;
+  border-radius:10px;
+  box-shadow:5px 8px 10px yellow;
+  }
+
+  section .container .slide figure{
+  width:3000px;
+  position:relative;
+  left:0;
+  margin:0;
+  animation:20s slide infinite;
+  }
+
+  section .container .slide img{
+  width:600px;
+  float:left;
+
+  }
+
+  @keyframes slide{
+  0%{background-image: url('./1.jpg'); }
+  25%{ background-image: url('./2.jpg');}
+  50%{ bak}
+  75%{ left:-300%;}
+  100%{ left:-400%;}
+
+
+  } */
+
+/* .container{
+  margin-top:100px;
+  text-align:center;
+  }
+
+  .container img{
+  width:200px;
+  height:200px;
+  margin:30px;
+  border:1px solid pink;
+  text-align:center;
+  box-shadow:10px 18px 10px 10px grey;
+  border-radius:50%;
+  opacity:0.8;
+
+  }
+  .container img:hover{
+  width:20%;
+  height:38%;
+  margin:10px;
+  text-align:center;
+  box-shadow:10px 10px grey;
+  opacity:1;
+  }
+
+  .texting{
+  width:100px;
+  height:50px;
+  border:30px solid grey;
+  border-radius:10px;
+  box-shadow:5px 8px 10px grey;
+  }
+
+  input[type=text]{
+  width:100%;
+  padding:10px 12px;
+  border:30px solid grey;
+  border-radius:10px;
+  box-shadow:5px 8px 10px grey;
+  }
+
+  .texting{
+  margin-top:500px;
+  padding:15px 25px;
+  }
+  .submit{
+   margin-top:auto;
+  width:300px;
+  height:100px;
+  border:3px solid red;
+  background:grey;
+  text-align:center;
+  padding:20px 30px;
+  border-radius:20px;
+  box-shadow:8px 10px 10px grey;
+  }
+  #sub{
+  margin-top:30px;
+  font-size:30px;
+  } */
+
+
+
+
+
+
+
+
+body {
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(161, 212, 224); */
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image img {
+  border-radius: 50%;
+  width: 650px;
+  height: 350px;
+
+}
+
+/* .image{
+  height:200px;
+  width:200px;
+  margin: auto;
+  border-radius: 50%;
+  /* background-color: blue; */
+/* justify-content: center;
+  text-align: center;
+}  */
+/* .image img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background-color: gray;
+  z-index: 1;
+} */
+/* .image img:hover{
+  height:250px;
+  width:250px;
+} */
+.card {
+  /* position: relative; */
+  border-radius: 20px;
+  background-color: #fff;
+  /* object-fit: cover; */
+  margin: 100px 10px 100px 150px;
+  width: 60%;
+  height: auto;
+  overflow-wrap: break-word;
+  /* flex-direction: row; */
+  /* overflow: auto; */
+
+
+
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  height: 35%;
+  width: 100%;
+  background: #7d2ae8;
+  overflow-wrap: break-word;
+  border-radius: 20px 20px 0 0;
+
+}
+
+.card .card-content {
+  display: inline-block;
+  overflow-wrap: break-word;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+
+}
+
+.branch {
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.name {
+  font-size: 50px;
+  font-family: 'Akaya Telivigala', cursive;
+
+
+
+}
+
+.media-icons {
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(245, 245, 132);
+  border-radius: 10px 80px 80px 50px;
+  cursor: pointer;
+
+
+}
+
+i {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+i:hover {
+  font-size: 50px;
+  border-radius: 50%;
+  background-color: rgb(187, 154, 241);
+}
+
+#desc {
+  font-family: monospace;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+section .container {
+  text-align: center;
+  margin: auto;
+  /* margin:30px; */
+  padding: 30px;
+}
+
+#texting {
+  font-size: 50px;
+  font-family: monospace;
+  font-style: italic;
+  margin: 100px;
+}
+
+.input {
+  font-size: 30px;
+}
+
+.input[type=text] {
+  width: 300px;
+  height: 100px;
+
+}
+
+.cards_images {
+  display: flex;
+}
+
+.cards_outimages {
+  width: 650px;
+  height: 300px;
+  margin-top: 300px;
+  animation: left-to-right 3s infinite;
+}
+
+@keyframes left-to-right {
+  0% {
+    transform: translateX(0%);
+  }
+
+  50% {
+    transform: translateY(100%);
+  }
+}
+
+hr {
+  width: 60%;
+
+
+}
+
+#robos {
+  width: auto;
+}
+
+.inputbox {
+  text-align: center;
+  border-radius: 10px;
+  margin: 30px;
+  display: flex;
+
+
+  justify-content: center;
+}
+
+.inputbox input {
+  background-color: #282c34;
+  padding: 5px 30px 5px 30px;
+  color: white;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Akaya Telivigala', cursive;
+
+
+}
+
+ol {
+  margin: 10px;
+  font-size: 30px;
+
+  font-family: 'Akaya Telivigala', cursive;
+
+
+
+}
+
+.submit {
+  margin-top: 30px;
+  margin-left: 50%;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 150px;
+  padding: 10px 80px 10px 80px;
+}
+
+/* CSS FOR COUNTER */
+#output {
+  border: 1px solid yellow;
+  background-color: yellow;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.counter {
+  display: flex;
+  margin: 30px;
+  padding: 30px;
+  justify-content: center;
+}
+
+body {
+  justify-content: center;
+  text-align: center;
+  /* display: flex; */
+  align-items: center;
+  font-family: 'Akaya Telivigala', cursive;
+  /* background-image: url("https://wallpaperaccess.com/full/210901.jpg"); */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  display: flex;
+}
+
+.action {
+  border: 3px solid #ffbc0d;
+  font-size: 30px;
+  color: #292929;
+  font-size: 50px;
+  padding: 0 10px 0 10px;
+  /* margin: 10px; */
+
+}
+
+.action:hover {
+  text-decoration: none;
+}
+
+#plus {
+  border-radius: 0 10px 10px 0;
+  background-color: #ffbc0d;
+
+  transition: linear 0.1s;
+  transition-property: all;
+  cursor: pointer;
+}
+
+#minus {
+  border-radius: 10px 0 0 10px;
+  background-color: #ffbc0d;
+
+  transition: linear 0.1s;
+  transition-property: all;
+  cursor: pointer;
+
+}
+
+#plus:hover {
+  background-color: #ffbc0da0;
+}
+
+#minus:hover {
+  background-color: #ffbc0da0;
+
+
+
+
+}
+
+.container {
+  margin: auto;
+  margin-top: 100px;
+}
+
+/* CSS FOR TO_DO_LIST APP */
+
+h1.dolist {
+  text-align: center;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 3px;
+  margin: 30px;
+}
+
+body {
+  background: #343434;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tasklist {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.addtask {
+  justify-content: center;
+  display: flex;
+  position: sticky;
+  top: 3px;
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+  /* border: 3px solid purple; */
+  border-radius: 5px 0 0 5px;
+  /* flex-direction: column; */
+}
+
+.header {
+  position: sticky;
+  top: 30px;
+}
+
+.addtask .input {
+  width: 60%;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+  /* text-align: center; */
+  padding-left: 20px;
+  border-radius: 15px 0 0 15px;
+
+}
+
+.taskcontent {
+  width: 60%;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+  letter-spacing: 2px;
+  align-items: center;
+  word-break: break-all;
+  color: white;
+
+}
+
+.delbtn {
+  /* width: 20%; */
+
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 30px;
+  background-color: #282c34;
+  font-family: 'Akaya Telivigala', cursive;
+
+  color: white;
+  transition: linear 0.1s;
+  transition-property: all;
+  /* display: inline-block; */
+  margin-left: 750px;
+
+}
+
+.donebtn {
+  /* width: 20%; */
+  /* border: 1px solid grey; */
+  font-size: 35px;
+  color: red;
+  transition: linear 0.1s;
+  transition-property: all;
+}
+
+.delbtn:hover {
+  /* width: 20%; */
+  /* border: 1px solid grey; */
+  font-size: 45px;
+  color: red;
+}
+
+.donebtn:hover {
+  /* width: 20%; */
+  /* border: 1px solid grey; */
+  font-size: 35px;
+  color: red;
+}
+
+.input input {
+  border-radius: 5px 0 0 5px;
+  width: 55%;
+}
+
+.addbtn {
+  border: 1px solid green;
+  border-radius: 0 5px 5px 0;
+  /* padding: 10px; */
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffbc0d;
+  color: #292929;
+  font-size: 20px;
+  letter-spacing: normal;
+  /* font-weight: 900; */
+  transition: linear 0.1s;
+  transition-property: all;
+}
+
+.addbtn:hover {
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.task {
+
+  padding: 20px;
+  margin: 30px;
+  display: flex;
+  width: 80%;
+  border-radius: 5px;
+  background-color: #343434;
+  box-shadow: 2px 2px 2px black;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Festive&family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+.Nav {
+  display: flex;
+  color: white;
+  margin: auto;
+  text-align: center;
+  /* justify-content: center; */
+  width: 100%;
+  background-color: #292929;
+  padding: 5px;
+  justify-content: space-around;
+
+}
+
+span .addbtn {
+  letter-spacing: 10px;
+  text-align: center;
+  padding: 5px;
+  background-color: #ffbc0d;
+  color: #292929;
+  border-radius: 10px;
+  font-family: 'Akaya Telivigala', cursive;
+
+}
+
+span:hover {
+  background-color: #595959;
+  color: white;
+}
+
+.page {
+  background-color: #343434;
+  border-radius: 80px 80px 15px 15px;
+}
+
+hr.line {
+  color: white;
+  font-weight: 900;
+  /* font-size: 50px; */
+  width: 100%;
+}
+
+/* CSS FOR WEATHER APP */
+/* h1{
+    text-align: center;
+    border: 3px solid grey;
+    border-radius: 20px;
+    box-shadow: 0 0 30px blue;
+    font-size: 50px;
+    display: inline-block;
+    background: silver;
+    
+} */
+/* body{ */
+/* background-image: url('https://www.google.com/search?q=denver+city&sxsrf=APq-WBs1R_agINFQauD2qDCB6-lWM9xLFw:1644760938407&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiNiOX76_z1AhVazzgGHZz0BlMQ_AUoAXoECAIQAw&biw=1536&bih=746&dpr=1.25#imgrc=SJxGmDSijQa2oM'); */
+/* text-align: center;
+   margin: 0;
+   align-items: center;
+   display: flex;
+
+   height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 100vw;
+} */
+.weathersearch {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: center;
+  /* width: 300px; */
+}
+
+.weathertempnum {
+  display: flex;
+  font-family: 'Akaya Telivigala', cursive;
+
+}
+
+.weathercontainer {
+  margin: 50px;
+  text-align: center;
+
+
+}
+
+.weathername {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 30px;
+
+}
+
+#weathertnum {
+  margin: auto;
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+
+
+
+
+}
+
+.weathercard {
+  border: 3px solid rgb(188, 173, 202);
+
+  width: 500px;
+  /* max-width:300px; */
+  /* display: flex; */
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  background: #000000d0;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgb(188, 173, 202);
+  overflow: hidden;
+  padding: 30px;
+
+
+
+}
+
+
+.weathertemp {
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.weatherinfo {
+  font-family: 'Akaya Telivigala', cursive;
+  color: white;
+  margin: auto;
+
+}
+
+.weatherdesc {
+  font-size: 30px;
+  margin: auto;
+
+}
+
+.weatherinputvalue {
+  margin-top: 20px;
+  text-decoration: none;
+  height: 30px;
+  margin-right: 10px;
+  width: 500px;
+  border: none;
+  /* padding: 10px; */
+  border-radius: 20px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: 'Festive', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  /* margin: 0; */
+  /* border: 3px solid rgb(188, 173, 202); */
+  text-align: center;
+
+}
+
+.weatherbutton {
+  border-radius: 50%;
+  padding: 10px;
+  background: #7c7c7c2b;
+  color: white;
+  border: 3px solid white;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+  cursor: pointer;
+  /* margin-left: px; */
+  align-items: center;
+
+
+
+}
+
+.weatherinputvalue:hover {
+  background-color: rgb(78, 76, 76);
+}
+
+.weatherbutton:hover {
+  font-size: 21px;
+  background: grey;
+}
+
+.weatherinputvalue input {
+  margin-top: 50px;
+  border: 3px solid rgb(188, 173, 202);
+  background: white;
+}
+
+
+
+
+
+
+
+
+
+.weatherinfo {
+  margin: 30px;
+  font-family: 'Akaya Telivigala', cursive;
+  text-align: center;
+
+}
+
+.weatherwind {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-family: 'Akaya Telivigala', cursive;
+  margin: auto;
+
+
+}
+
+.weathertemp {
+  margin: 20px;
+  text-align: center;
+}
+
+.weatherdesc {
+  margin: 20px;
+  font-family: 'Akaya Telivigala', cursive;
+  margin: auto;
+
+}
+
+.weatherhumidity {
+  margin: auto;
+  font-size: 25px;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.contact_image {
+  margin-left: 800px;
+  border-radius: 50%;
+  height: 35%;
+  width: 35%;
+  animation-name: contactimage;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes contactimage {
+  0% {
+    transform: translateX(0%);
+  }
+
+  50% {
+    transform: translatey(25%);
+  }
+}
+
+.contact_image img {
+  height: 10%;
+  width: 10%;
+  background-color: #7c7c7c2b;
+  justify-content: center;
+  text-align: center;
+}
+
+.sicon {
+
+  font-size: 50px;
+  /* text-align: center; */
+  left: 500px;
+  font-family: 'Akaya Telivigala', cursive;
+  color: white;
+
+
+}
+
+.sicon :hover {
+  font-size: 60px;
+  color: #7d2ae8;
+  transition: 0.1s linear;
+  transition-property: all;
+}
+
+.sicon a {
+
+  padding: 10px;
+  display: inline-flex;
+  margin: auto;
+  background-color: #595959;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #595959;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.profile_card {
+  margin: auto;
+  width: 350px;
+  border-radius: 15px;
+
+  height: auto;
+  border: 1px solid #292929;
+  /* background-color: yellow; */
+}
+
+.profile_card::before {
+  content: "";
+  position: absolute;
+  height: 10%;
+  width: 350px;
+  background: #7d2ae8;
+  overflow-wrap: break-word;
+  border-radius: 15px 15px 0 0;
+}
+
+.profile_card_content {
+  display: inline-block;
+  overflow-wrap: break-word;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+
+.profile_image {
+  height: 100px;
+  width: 100px;
+
+  border-radius: 50%;
+}
+
+.profile_image img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  width: 50px;
+  z-index: 1;
+  /* border-radius: 50%; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.profile_content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* flex-direction: column; */
 }
